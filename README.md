@@ -47,7 +47,6 @@ This project was my way of mixing productivity with AI automation for something 
 
 <details>
 <summary>Click to Expand Mermaid Flowchart</summary>
-
 ```mermaid
 flowchart TD
     A[Trigger: New Gmail Email] --> B{Router: LinkedIn Email?}
@@ -59,10 +58,10 @@ flowchart TD
     D -- No --> H[HTTP API: Spam Check]
     H --> I[JSON Parser: Is Spam?]
     I -- Yes --> J[Move to Spam]
-    I -- No --> K[Label: Spam Checked]
+    I -- No --> K[Label: Spam Checked] ```
 </details>
 
-🧩 Screenshots from My Scenario
+##🧩 Screenshots from My Scenario
 
 Here are the parts of my Make scenario that I’ll be adding screenshots for:
 
@@ -78,12 +77,12 @@ Here are the parts of my Make scenario that I’ll be adding screenshots for:
 - Log each classification to **Google Sheets or Notion**
 - Add Telegram/Slack alert for profile-matched jobs
 
-📈 What I Plan to Improve
+##📈 What I Plan to Improve
 
 - Replace current AI API with something I host myself (maybe on Replit or FastAPI)  
 - Log all results in Google Sheets or Notion for tracking  
 - Add alerts on Telegram for matched job emails
 
-🎥 Optional Demo
+##🎥 Optional Demo
 
 I might add a Loom video or upload screenshots folder later for a quick walkthrough.
