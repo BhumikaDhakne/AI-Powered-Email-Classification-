@@ -47,18 +47,18 @@ This project was my way of mixing productivity with AI automation for something 
 
 <details>
 <summary>Click to Expand Mermaid Flowchart</summary>
-```mermaid
-flowchart TD
-    A[Trigger: New Gmail Email] --> B{Router: LinkedIn Email?}
-    B -- Yes --> C[HTTP API: LinkedIn Check]
-    C --> D[JSON Parser: Is LinkedIn?]
-    D -- Yes --> E{Router: Profile Match?}
-    E -- Yes --> F[Label: Profile Matched]
-    E -- No --> G[Move to Spam]
-    D -- No --> H[HTTP API: Spam Check]
-    H --> I[JSON Parser: Is Spam?]
-    I -- Yes --> J[Move to Spam]
-    I -- No --> K[Label: Spam Checked] 
+```mermaid <br>
+flowchart TD <br>
+    A[Trigger: New Gmail Email] --> B{Router: LinkedIn Email?} <br>
+    B -- Yes --> C[HTTP API: LinkedIn Check] <br>
+    C --> D[JSON Parser: Is LinkedIn?] <br>
+    D -- Yes --> E{Router: Profile Match?} <br>
+    E -- Yes --> F[Label: Profile Matched] <br>
+    E -- No --> G[Move to Spam] <br>
+    D -- No --> H[HTTP API: Spam Check] <br>
+    H --> I[JSON Parser: Is Spam?] <br>
+    I -- Yes --> J[Move to Spam] <br>
+    I -- No --> K[Label: Spam Checked]  <br>
 </details>
 
 ## 🧩 Screenshots from My Scenario
@@ -70,7 +70,7 @@ Here are the parts of my Make scenario that I’ll be adding screenshots for:
 - HTTP API and filters
 - JSON parsing
 - Gmail labeling module
--  
+  
 ---
 
 ## 📈 Future Improvements
